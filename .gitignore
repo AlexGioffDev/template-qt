@@ -1,0 +1,53 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# Qt specific
+*.moc
+*.qrc
+*.qmlc
+*.qrc.depends
+
+# VSCode settings
+.vscode/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Backup files
+*.bak
+*~
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+
+# MacOS specific
+.DS_Store
