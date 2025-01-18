@@ -6,9 +6,8 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
 
     QString executablePath = QCoreApplication::applicationDirPath();
-    qDebug() << "Percorso dell'eseguibile:" << executablePath;
 
-    QFile file(executablePath + "/style.qss"); // Assicurati che style.qss sia nella stessa cartella dell'eseguibile
+    QFile file(executablePath + "/style.qss");
     if (file.open(QFile::ReadOnly))
     {
         QTextStream stream(&file);
